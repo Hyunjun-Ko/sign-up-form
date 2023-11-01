@@ -108,6 +108,11 @@ input:invalid {
   border: 2px solid red;
 }
 
+input:focus {
+  outline: none;
+  border: 2px solid #e6955f;
+}
+
 input:invalid + span::before {
   content: "✖";
   color: red;
