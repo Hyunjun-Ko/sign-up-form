@@ -91,11 +91,11 @@ legend {
   flex-flow: column wrap;
   width: 40%;
 }
-
+input {
+  border-radius: 5px;
+}
 input:hover,
 input:focus {
-  border: 1px solid gray;
-  box-sizing: border-box;
   box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.5);
 }
 
@@ -106,6 +106,9 @@ input:required + span::after {
 
 input:invalid {
   border: 2px solid red;
+}
+input:valid {
+  border: 2px solid green;
 }
 
 input:focus {
