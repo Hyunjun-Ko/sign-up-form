@@ -93,6 +93,10 @@ legend {
 }
 input {
   border-radius: 5px;
+  height: 2rem;
+  font-size: 2rem;
+  color: #222222;
+  font-family: Gundam;
 }
 input:hover,
 input:focus {
@@ -130,7 +134,7 @@ input:valid + span::after {
 }
 button {
   width: 30%;
-  margin: 0 0 40px 0;
+  margin: 0 0 20px 0;
   background-color: rgba(0, 0, 0, 0);
   color: #e6955f;
   font-weight: 700;
